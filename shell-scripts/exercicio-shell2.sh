@@ -1,4 +1,5 @@
 #!/bin/bash
+# Eu sou tryber...
 
 VARIAVEL=`whoami`
 
