@@ -1,5 +1,5 @@
 #!/bin/bash
-# Vou ter muito sucesso na programação!
+# Eu sou tryber...Vou ter muito sucesso na programação!
 
 VARIAVEL=`whoami`
 
