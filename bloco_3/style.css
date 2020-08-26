@@ -52,10 +52,6 @@ body {
     display: inline-block;
 }
 
-/* .scientific-table {
-    width: 70%;
-} */
-
 .draw {
     margin-top: 51px;    
     float: right;
@@ -110,6 +106,23 @@ h4 {
     font-size: 14px;
     text-align: justify;
 }
+
+aside {    
+    float: right;   
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-right: 100px;
+    width: 20%;
+    height: 550px;
+    text-align: center;    
+}
+
+.youtube {
+    width: 50px;
+}
+
 
 .bibliography {
     display: inline-block;
