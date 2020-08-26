@@ -57,6 +57,7 @@ body {
 } */
 
 .draw {
+    margin-top: 51px;    
     float: right;
     width: 20%;   
     display: inline-block; 
@@ -75,6 +76,46 @@ body {
 
 .second-article {
     box-sizing: border-box;
-    padding-top: 100px;
+    padding-top: 30px;
+    padding-left: 100px;
+    width: 75%;
 }
 
+.you-know {
+    display: inline-block;
+    box-sizing: border-box;      
+    padding-left: 12px;
+    margin: 5px;
+    width: 30%;
+    height: 550px;
+}
+
+h4 {
+    padding: 0;
+    text-align: center;
+}
+
+.image-know {
+    width: 230px;
+    height: 135px;
+}
+
+.image-know2 {
+    width: 230px;
+    height: 270px;
+}
+
+.paragraphy-know {
+    width: 95%;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.bibliography {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+    width: 93.5%;
+    height: 100px;
+
+}
