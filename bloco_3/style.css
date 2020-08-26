@@ -1,0 +1,80 @@
+/*https://www.starfish.ch/c-invertebrates/mantisshrimps.html 
+https://www.megacurioso.com.br/animais-sinistros/36141-mantis-conheca-a-lagosta-boxeadora-o-bicho-mais-desgracado-dos-mares-.htm
+https://pt.wikipedia.org/wiki/Stomatopoda
+ */
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.group-link {
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 100px;  
+    text-align: right;  
+}
+
+.links {
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-title {
+    background-image: url(https://www.starfish.ch/Fotos/crustaceans-Gliederfuesser/mantis-Heuschreckenkrebse/Odontodactylus-scyllarus4.jpg);    
+    background-size: cover;
+    height: 500px;
+    background-position: 50% 25%;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 28px;
+    font-weight: bold;    
+}
+
+.article-title {
+    text-align: center;
+}
+
+.section-one {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;    
+}
+
+.first-paragraph {
+    width: 75%;
+    display: inline-block;
+}
+
+/* .scientific-table {
+    width: 70%;
+} */
+
+.draw {
+    float: right;
+    width: 20%;   
+    display: inline-block; 
+}
+
+.draw-color {
+    width: 100%;
+}
+
+.scientific-table {
+    border: 1px solid black; 
+    border-spacing: 43px;   
+    margin-left: 10px; 
+    text-align: center;   
+}
+
+.second-article {
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
