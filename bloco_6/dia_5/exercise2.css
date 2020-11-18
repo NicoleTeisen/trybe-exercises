@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+      padding: 0;
+      margin: 0;
+  }
+
+  header {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+ .nav {
+     display: flex;
+     justify-content: space-around;
+     padding-left: 0;
+     list-style: none;
+     background-color: darkgoldenrod;
+     height: 50px;
+     align-items: center;
+ }
