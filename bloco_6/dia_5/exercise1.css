@@ -1,0 +1,46 @@
+body {
+    font-size: 20px;
+    margin: 20px;     
+}
+h1 {
+    font-size: 26px;
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+    margin: 20px auto;    
+}
+
+figure {
+    margin: 20px auto;        
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: darkslategrey;
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    figure {
+        width: 50%;
+        justify-content: space-between;
+    }
+
+}
